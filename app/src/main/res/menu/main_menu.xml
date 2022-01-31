@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/change_profile"
+                    android:icon="@drawable/ic_baseline_face_24"
+                    android:title="Profil" />
+
+                <item
+                    android:id="@+id/change_userTAG"
+                    android:icon="@drawable/ic_baseline_tag_24"
+                    android:title="Changer de userTAG" />
+
+            </group>
+
+
+    <item android:title="Amis">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/add_friends"
+                    android:icon="@drawable/ic_baseline_person_add_24"
+                    android:title="Ajouter des amis" />
+                <item
+                    android:id="@+id/friend_requests"
+                    android:icon="@drawable/ic_baseline_markunread_mailbox_24"
+                    android:title="Demande d'amis" />
+                <item
+                    android:id="@+id/friends_list"
+                    android:icon="@drawable/ic_baseline_people_24"
+                    android:title="Liste d'amis" />
+
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Communauté">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/contacts"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="Contacts" />
+                <item
+                    android:id="@+id/newsletter"
+                    android:icon="@drawable/ic_baseline_newspaper_24"
+                    android:title="Nouveautés" />
+
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="Paramètres supplémentaires">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Paramètres avancés" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_logout_24"
+                    android:title="Se déconnecter" />
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="cardview_light" parent="android:Widget">
+        <item name="cardElevation">1dp</item>
+        <item name="android:outlineSpotShadowColor">@color/colorTransparent</item>
+        <item name="cardBackgroundColor">@color/colorLightShadow</item>
+    </style>
+
+    <style name="appbar_light" parent="android:Widget">
+        <item name="android:outlineSpotShadowColor">@color/colorTransparent</item>
+        <item name="background">@color/colorWhite</item>
+    </style>
+</resources>

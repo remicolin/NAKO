@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorLightShadow</item>
+        <item name="colorAccent">@color/colorTransparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:fontFamily">@font/luciole</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/luciole</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+    <style name="backgroundLight" parent="android:Widget">
+        <item name="background">@color/colorWhite</item>
+    </style>
+
+
+    <style name="cardview_light" parent="android:Widget">
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/colorLightShadow</item>
+    </style>
+
+    <style name="button_light" parent="android:Widget">
+        <item name="android:textColor">@color/colorGrey</item>
+    </style>
+
+    <style name="editText_light">
+        <!--<item name="android:backgroundTint">@color/colorLightShadow</item> -->
+        <item name="android:textColorHint">@color/color_selector_edittext</item>
+        <item name="android:backgroundTint">@color/colorLightShadow</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColor">@color/colorGrey_Dark</item>
+        <item name="android:state_multiline">false</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="textView_light">
+        <item name="android:textColor">@color/colorGrey</item>
+    </style>
+
+    <style name="recyclerView_light">
+        <item name="android:overScrollMode">never</item>
+        <item name="backgroundColor">@color/colorWhite</item>
+    </style>
+
+    <style name="appbar_light">
+        <item name="background">@color/colorWhite</item>
+    </style>
+
+</resources>

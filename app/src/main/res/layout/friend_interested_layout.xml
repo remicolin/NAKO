@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+    android:layout_height="60dp">
+
+    <androidx.cardview.widget.CardView
+        style="@style/cardview_light"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView_friendUserTAG"
+                style="@style/textView_light"
+                android:layout_width="0dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="8dp"
+                android:text=" @userTAG"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cardview_structure"
+                app:layout_constraintTop_toBottomOf="@+id/textView_friendName" />
+
+            <TextView
+                android:id="@+id/friend_interested_layout_textView_date"
+                style="@style/textView_light"
+                android:layout_width="0dp"
+                android:layout_height="16dp"
+                android:text="date"
+                android:textSize="10sp"
+                app:layout_constraintStart_toStartOf="@+id/textView_friendName"
+                app:layout_constraintTop_toBottomOf="@+id/textView_friendUserTAG" />
+
+            <TextView
+                android:id="@+id/textView_friendName"
+                style="@style/textView_light"
+                android:layout_width="0dp"
+                android:layout_height="18dp"
+                android:text="Friend Name"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/textView_friendUserTAG"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview_structure"
+                style="@style/cardview_light"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                app:cardCornerRadius="6dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_baseline_face_24" />
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
