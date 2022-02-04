@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCwM4YRT94vZgOH4YZHvMTFiPPQdmhK4us" />
+            android:value="API_KEY" />
 
         <activity
             android:name=".activities.SplashScreenActivity"
